@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kongsberg_watercolumn</name>
+  <version>0.0.0</version>
+  <description>Publish Kongsberg multibeam watercolumn data as marine_acoustic_msgs/RawSonarImage messages</description>
+
+  <maintainer email="roland@ccom.unh.edu">Roland Arsenault</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>marine_acoustic_msgs</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+</package>
